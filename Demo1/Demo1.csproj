@@ -68,7 +68,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="home.aspx" />
+    <Content Include="ipexample.aspx" />
+    <Content Include="qs1.aspx" />
+    <Content Include="qs2.aspx" />
     <Content Include="Register.aspx" />
+    <Content Include="s1.aspx" />
+    <Content Include="s2.aspx" />
+    <Content Include="vsexample.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -79,7 +85,28 @@
     <Compile Include="home.aspx.designer.cs">
       <DependentUpon>home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ipexample.aspx.cs">
+      <DependentUpon>ipexample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ipexample.aspx.designer.cs">
+      <DependentUpon>ipexample.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="qs1.aspx.cs">
+      <DependentUpon>qs1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="qs1.aspx.designer.cs">
+      <DependentUpon>qs1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="qs2.aspx.cs">
+      <DependentUpon>qs2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="qs2.aspx.designer.cs">
+      <DependentUpon>qs2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -87,12 +114,33 @@
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="s1.aspx.cs">
+      <DependentUpon>s1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="s1.aspx.designer.cs">
+      <DependentUpon>s1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="s2.aspx.cs">
+      <DependentUpon>s2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="s2.aspx.designer.cs">
+      <DependentUpon>s2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="User.Master.cs">
       <DependentUpon>User.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="User.Master.designer.cs">
       <DependentUpon>User.Master</DependentUpon>
+    </Compile>
+    <Compile Include="vsexample.aspx.cs">
+      <DependentUpon>vsexample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vsexample.aspx.designer.cs">
+      <DependentUpon>vsexample.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
