@@ -18,6 +18,10 @@
                         <asp:TextBox runat="server" TextMode="Number" ID="txtContact" placeholder="Enter Contact" CssClass="form-control"></asp:TextBox>
                     </div>
                      <div class="form-group">
+                        <label for="pwd">Email:</label>
+                        <asp:TextBox runat="server" TextMode="Email" ID="txtEmail" placeholder="Enter Email" CssClass="form-control"></asp:TextBox>
+                    </div>
+                     <div class="form-group">
                         <label for="email">City:</label>
                        <asp:DropDownList CssClass="form-control" runat="server" ID="ddlCity">
                            <asp:ListItem Text="Select City" Value="0"></asp:ListItem>
@@ -30,7 +34,7 @@
                         <label for="pwd">Set Password:</label>
                         <asp:TextBox runat="server" TextMode="Password" ID="txtPassword" placeholder="Set Password" CssClass="form-control"></asp:TextBox>
                     </div>
-                    <asp:Button runat="server" ID="btnsubmit" Text="Submit" CssClass="btn btn-primary" />
+                    <asp:Button runat="server" OnClick="btnsubmit_Click" ID="btnsubmit" Text="Submit" CssClass="btn btn-primary" />
                 </div>
             </div>
 
